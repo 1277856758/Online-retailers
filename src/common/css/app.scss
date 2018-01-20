@@ -1,0 +1,78 @@
+html,body,#app{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+}
+.mainBox{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    section{
+        flex:1;
+        overflow-y: scroll;
+    }
+}
+.home_footer{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    height: 1.06rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 .2rem;
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333;
+        p{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                display: inline-block;
+                width: .4rem;
+                height: .4rem;
+            }
+        }
+    }
+}
+.bigImg{
+    width: .8rem!important;
+    height: .8rem!important;
+}
+.parset ul{
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-left: -.8rem;
+    li{
+       button{
+            width: 0.25rem;
+            height: 0.25rem;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.8)
+       }
+    }
+    .is-active{
+        button{
+            background: red;
+        }
+    }
+}
+.el-carousel__container {
+    position: relative!important;
+    height: 100%!important
+}

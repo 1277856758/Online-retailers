@@ -1,0 +1,31 @@
+[
+    {
+        "url": "src/common/images/home.png",
+        "replace": "src/common/images/home1.png",
+        "name": "首页",
+        "to": "/home/index"
+    },
+    {
+        "url": "src/common/images/type.png",
+        "replace": "src/common/images/type1.png",
+        "name": "分类",
+        "to": "/home/category"
+    },
+    {
+        "url": "src/common/images/inter.png",
+        "cls": "bigImg",
+        "to": "/home/circle"
+    },
+    {
+        "url": "src/common/images/shoping.png",
+        "replace": "src/common/images/shoping1.png",
+        "name": "购物车",
+        "to": "/home/shoping"
+    },
+    {
+        "url": "src/common/images/my.png",
+        "replace": "src/common/images/my.png",
+        "name": "我的",
+        "to": "/home/personal"
+    }
+]
